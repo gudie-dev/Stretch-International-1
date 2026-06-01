@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-secondary font-sans antialiased;
+    scroll-behavior: smooth;
+  }
+  
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .glass {
+    @apply bg-white/90 backdrop-blur-md border border-slate-200/50;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-8 py-4 rounded-full font-bold transition-all duration-300 active:scale-95 tracking-wide;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark shadow-xl shadow-primary/20 hover:-translate-y-1;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-dark shadow-xl shadow-secondary/20 hover:-translate-y-1;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white hover:-translate-y-1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slow-zoom {
+  from { transform: scale(1.05); }
+  to { transform: scale(1.15); }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 20s linear infinite alternate;
+}
+
