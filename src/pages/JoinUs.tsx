@@ -134,7 +134,7 @@ const JoinUs = () => {
             <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm mb-6 block">Support Our Impact</span>
             <h2 className="text-4xl md:text-5xl font-black text-secondary mb-6 font-serif italic">Donate & Act</h2>
             <p className="text-lg text-slate-500 leading-relaxed font-medium">
-              Join the Youth Entrepreneurship & Leadership Seminar (Y.E.S) pathways to lend your support, coordinate, teach, or mentor.
+              Join the Youth Entrepreneurs and Innovations SWITCH (Y.E.S) program to lend your support, coordinate, teach, or mentor.
             </p>
           </div>
 
