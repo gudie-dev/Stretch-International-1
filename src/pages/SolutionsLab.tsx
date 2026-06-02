@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, BarChart3, Globe, ShieldCheck, Users2, Building2, CheckCircle2, ArrowRight } from 'lucide-react';
 

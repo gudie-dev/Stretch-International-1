@@ -1,5 +1,3 @@
-import React from 'react';
-import { motion } from 'framer-motion';
 import whoWeAreImg from '../assets/hero20.png';
 import ourStoryImg from '../assets/our_story_training.png';
 import teamGoodness from '../assets/team_goodness.jpeg';

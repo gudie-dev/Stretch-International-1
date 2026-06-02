@@ -1,17 +1,11 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroSlider from '../components/HeroSlider';
-import { Target, Lightbulb, Shield, Users, Heart, Zap, ArrowRight } from 'lucide-react';
+import { Target, Lightbulb, Zap, ArrowRight } from 'lucide-react';
 import { motion, useInView, animate, useMotionValue, useTransform } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import missionImg from '../assets/mission_new.jpg';
 import impactHubLogo from '../assets/impact_hub_logo_new.png';
 import solutionsLabLogo from '../assets/solutions_lab_logo_new.png';
-import valInnovation from '../assets/bootcamp_innovation.png';
-import valPossibility from '../assets/value_possibility.png';
-import valDiscipline from '../assets/bootcamp_discipline.png';
-import valEmpathy from '../assets/bootcamp_empathy.png';
-import valIntegrity from '../assets/bootcamp_integrity.png';
 
 import partnerWadhwani from '../assets/partners/Wadhwani-Foundation-Logo.webp';
 import partnerKits from '../assets/partners/Kits on Earth logo.jpg';
@@ -53,34 +47,6 @@ const Home = () => {
       color: 'bg-sky-50',
       link: '/solutions-lab'
     }
-  ];
-
-  const values = [
-    { 
-      name: 'Innovation', 
-      image: valInnovation,
-      desc: 'We constantly seek new and better ways to solve complex problems, leveraging cutting-edge technology and creative thinking to drive sustainable impact across the continent.'
-    },
-    { 
-      name: 'Possibility Mindset', 
-      image: valPossibility,
-      desc: 'At STRETCH, we believe there are NO IMPOSSIBILITIES. We approach every challenge with the conviction that a breakthrough is always within reach for the determined mind.'
-    },
-    { 
-      name: 'Discipline', 
-      image: valDiscipline,
-      desc: 'Excellence is not an act, but a habit. We are committed to consistency, rigorous standards, and a structured approach to delivering world-class results.'
-    },
-    { 
-      name: 'Empathy', 
-      image: valEmpathy,
-      desc: 'We lead with heart and deep understanding. By connecting with the lived experiences of our community, we build solutions that are as compassionate as they are effective.'
-    },
-    { 
-      name: 'Integrity', 
-      image: valIntegrity,
-      desc: 'Trust is our foundation. We uphold the highest ethical standards, ensuring transparency, honesty, and radical accountability in every interaction and partnership.'
-    },
   ];
 
   return (

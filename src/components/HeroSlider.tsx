@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import hero6 from '../assets/hero6.png';
 import hero7 from '../assets/hero7.png';
 import hero12a from '../assets/hero12a.png';
 import nyscCorpers from '../assets/nysc_corpers_training.png';

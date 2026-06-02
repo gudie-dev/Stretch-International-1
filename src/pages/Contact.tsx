@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Phone, Mail, MapPin, Calendar, ExternalLink, Users, Send, CheckCircle2 } from 'lucide-react';
+import { Phone, MapPin, Calendar, ExternalLink, Users, Send, CheckCircle2 } from 'lucide-react';
 
 // Custom inline SVG icons for social channels (due to Lucide deprecating brand icons)
 const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import solutionsLabLogo from '../assets/solutions_lab_logo_new.png';
 import impactHubLogo from '../assets/impact_hub_logo_new.png';
 import stretchLogo from '../assets/stretch_logo.png';

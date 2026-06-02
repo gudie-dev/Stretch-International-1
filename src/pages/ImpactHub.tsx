@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Award, BookOpen, ExternalLink, GraduationCap } from 'lucide-react';
-import impactHubLogo from '../assets/impact_hub_logo_new.png';
 import impactHubTeam from '../assets/IMG_0053Bootcamp.jpg';
 import programYes from '../assets/program_yes_3.jpg';
 import programLaunchpad from '../assets/IMG_6355.jpg';

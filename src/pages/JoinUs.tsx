@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Handshake, Heart, BookOpen, Presentation, Users, Sparkles } from 'lucide-react';
 import partnershipImg from '../assets/partnership_outer_v3.png';

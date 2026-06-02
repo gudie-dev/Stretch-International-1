@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import stretchLogo from '../assets/stretch_logo.png';
 
 const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -54,7 +53,7 @@ const Footer = () => {
                 rel="noopener noreferrer" 
                 className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-all duration-300 border border-white/10"
               >
-                <item.Icon size={24} />
+                <item.Icon className="w-6 h-6" />
               </a>
             ))}
           </div>
